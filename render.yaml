@@ -5,13 +5,9 @@ services:
     plan: free
     region: oregon
     buildCommand: npm install
-    startCommand: ./start.sh
+    startCommand: npm start
     envVars:
       - key: ADMIN_PASSWORD
         value: thepothome
       - key: NODE_ENV
         value: production
-    disk:
-      name: data
-      mountPath: /data-root
-      sizeGB: 1
