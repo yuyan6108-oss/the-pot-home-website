@@ -47,6 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function switchToView(hash) {
     const h = (hash || "").replace("#", "");
+    if (h.startsWith("cat-")) {
+      const target = document.getElementById(h);
+      if (target) setTimeout(() => target.scrollIntoView({ behavior: "smooth" }), 50);
+      return;
+    }
     if (h === "menu") {
       body.classList.remove("view-home");
       body.classList.add("view-menu");
@@ -389,6 +394,16 @@ async function loadMenu() {
             )
             .join("")}
         </ul>`;
+
+      navEl.addEventListener("click", (e) => {
+        const link = e.target.closest("a.nav-link");
+        if (link && link.getAttribute("href").startsWith("#cat-")) {
+          e.preventDefault();
+          const catId = link.getAttribute("href").replace("#", "");
+          const target = document.getElementById(catId);
+          if (target) setTimeout(() => target.scrollIntoView({ behavior: "smooth" }), 50);
+        }
+      });
     }
 
     // Helper: detect add-on / toppings category
