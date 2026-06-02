@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一锅小筑 | The Pot Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="lang-zh view-home">
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+      <div class="container">
+        <a class="nav-brand" href="#home" id="nav-brand">
+          <span class="zh-only">一锅小筑</span>
+          <span class="en-only">The Pot Home</span>
+        </a>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#home" data-view="home">
+            <span class="zh-only">首页</span>
+            <span class="en-only">Home</span>
+          </a></li>
+          <li><a class="nav-link" href="#menu" data-view="menu">
+            <span class="zh-only">菜单</span>
+            <span class="en-only">Menu</span>
+          </a></li>
+          <li><a class="nav-link" href="#about" data-section="about">
+            <span class="zh-only">关于</span>
+            <span class="en-only">About</span>
+          </a></li>
+          <li><a class="nav-link" href="#reviews" data-section="reviews">
+            <span class="zh-only">好评</span>
+            <span class="en-only">Reviews</span>
+          </a></li>
+          <li><a class="nav-link" href="#map" data-section="map">
+            <span class="zh-only">地址</span>
+            <span class="en-only">Location</span>
+          </a></li>
+          <li class="nav-lang-mobile">
+            <div class="lang-switch">
+              <button class="lang-btn active" data-lang="zh">中文</button>
+              <span class="lang-sep">|</span>
+              <button class="lang-btn" data-lang="en">English</button>
+            </div>
+          </li>
+        </ul>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">English</button>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Home View -->
+    <div id="view-home" class="page-view">
+      <!-- Hero -->
+      <header class="hero">
+        <div class="container">
+          <div class="hero-brand">
+            <span class="zh-only">
+              <span class="hero-cn-brand">一锅小筑</span>
+              <span class="hero-en-sub">The Pot Home</span>
+            </span>
+            <span class="en-only">
+              <span class="hero-en-brand">The Pot Home</span>
+              <span class="hero-cn-sub">一锅小筑</span>
+            </span>
+          </div>
+          <p class="hero-location">
+            <span class="zh-only">Yonge St, North York</span>
+            <span class="en-only">Yonge St, North York</span>
+          </p>
+          <p class="hero-tags">
+            <span class="zh-only">量大到怀疑人生</span>
+            <span class="en-only">Big portions, real comfort food</span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu" data-view="menu">
+              <span class="zh-only">查看完整菜单</span>
+              <span class="en-only">View Full Menu</span>
+            </a>
+            <a class="btn btn-outline" href="#about">
+              <span class="zh-only">了解更多</span>
+              <span class="en-only">Learn More</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="zh-only">关于我们</span>
+            <span class="en-only">About Us</span>
+          </h2>
+          <div class="about-text">
+            <p class="zh-only">
+              一锅小筑位于 North York 的 Yonge Street，是一家主打家常中餐和暖锅类菜品的小店。我们以分量足、味道实在、适合朋友聚餐和日常吃饭为特色。招牌菜包括特色火锅鸡、砂锅羊蝎子、砂锅牛筋牛腩、特色小炒、手工水饺和馅饼等。支持堂食和外卖。
+            </p>
+            <p class="en-only">
+              The Pot Home is a cozy Chinese comfort food restaurant on Yonge Street in North York. We are known for generous portions, rich flavors, and warm home-style dishes that are great for casual meals, takeout, and sharing with friends. Our signature dishes include Hot Pot Chicken, Lamb Spine Clay Pot, Beef Brisket & Tendon Pot, specialty stir-fry dishes, handmade dumplings, and Chinese pies. Dine-in and takeout available.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Reviews -->
+      <section class="section section-soft" id="reviews">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="zh-only">客人好评</span>
+            <span class="en-only">Customer Reviews</span>
+          </h2>
+          <div class="reviews-marquee">
+            <div class="reviews-track" id="reviews-carousel">
+            <!-- Original set -->
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                The customer service was amazing. The staff were friendly and patient, and the chicken pot was delicious. The chicken was juicy and the pancakes were crispy.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Ivy_E</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to ialty, and it's good for four of us. The chicken feet dish is amazing too.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Gigi li</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to if I'm craving hearty, comforting food.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Yuk KO</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                非常好吃！！火锅鸡很正宗 其他的小食也不错！！很适合一起聚餐来吃分量很大
+              </div>
+              <div class="review-author">
+                <span class="review-name">Zi hui Wang</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                这家鸡肉火锅真是太美味了！汤底浓郁鲜美，鸡肉本身也鲜嫩多汁。餐厅干净整洁，用餐环境舒适宜人。服务也非常优质。
+              </div>
+              <div class="review-author">
+                <span class="review-name">Jayden Plusone</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Went here with a group of friends, and ordered a bunch of signature dishes, and the price and flavor really surprised us. We especially liked the hot pot chicken which balanced the tenderness and spice pretty well. We liked the noodle too. Great service and experience.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Agnes Lu</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Just an amazing restaurant! Been here twice, my friends all like the food! It's fresh!
+              </div>
+              <div class="review-author">
+                <span class="review-name">CornWasteLand</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <!-- Duplicate set for seamless loop -->
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                The customer service was amazing. The staff were friendly and patient, and the chicken pot was delicious. The chicken was juicy and the pancakes were crispy.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Ivy_E</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to ialty, and it's good for four of us. The chicken feet dish is amazing too.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Gigi li</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to if I'm craving hearty, comforting food.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Yuk KO</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                非常好吃！！火锅鸡很正宗 其他的小食也不错！！很适合一起聚餐来吃分量很大
+              </div>
+              <div class="review-author">
+                <span class="review-name">Zi hui Wang</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                这家鸡肉火锅真是太美味了！汤底浓郁鲜美，鸡肉本身也鲜嫩多汁。餐厅干净整洁，用餐环境舒适宜人。服务也非常优质。
+              </div>
+              <div class="review-author">
+                <span class="review-name">Jayden Plusone</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Went here with a group of friends, and ordered a bunch of signature dishes, and the price and flavor really surprised us. We especially liked the hot pot chicken which balanced the tenderness and spice pretty well. We liked the noodle too. Great service and experience.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Agnes Lu</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Just an amazing restaurant! Been here twice, my friends all like the food! It's fresh!
+              </div>
+              <div class="review-author">
+                <span class="review-name">CornWasteLand</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Restaurant Info -->
+      <section class="section" id="info">
+        <div class="container">
+          <h2>
+            <span class="zh-only">餐厅信息</span>
+            <span class="en-only">Restaurant Info</span>
+          </h2>
+          <div class="info-grid">
+            <div class="info-card">
+              <h3>
+                <span class="zh-only">营业时间</span>
+                <span class="en-only">Hours</span>
+              </h3>
+              <div class="hours-grid">
+                <div class="zh-only">
+                  <div class="hours-row"><span class="hours-day">星期一</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">星期二</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">星期三</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">星期四</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">星期五</span><span class="hours-time">11:30 – 23:00</span></div>
+                  <div class="hours-row"><span class="hours-day">星期六</span><span class="hours-time">11:30 – 23:00</span></div>
+                  <div class="hours-row"><span class="hours-day">星期日</span><span class="hours-time">11:30 – 23:00</span></div>
+                </div>
+                <div class="en-only">
+                  <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">11:30 AM – 10:30 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">11:30 AM – 10:30 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">11:30 AM – 10:30 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">11:30 AM – 10:30 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">11:30 AM – 11:00 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">11:30 AM – 11:00 PM</span></div>
+                  <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">11:30 AM – 11:00 PM</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="info-row info-row-2">
+              <div class="info-card">
+                <h3>
+                  <span class="zh-only">电话</span>
+                  <span class="en-only">Phone</span>
+                </h3>
+                <p>
+                  <a class="info-link" href="tel:+14163351578">(416) 335-1578</a>
+                </p>
+              </div>
+              <div class="info-card">
+                <h3>
+                  <span class="zh-only">服务</span>
+                  <span class="en-only">Service</span>
+                </h3>
+                <p>
+                  <span class="zh-only">堂食 / 外卖 / Delivery</span>
+                  <span class="en-only">Dine-in / Takeout / Delivery</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location -->
+      <section class="section section-map" id="map">
+        <div class="container">
+          <h2>
+            <span class="zh-only">地址</span>
+            <span class="en-only">Location</span>
+          </h2>
+          <div class="map-card">
+            <div class="map-address">
+              <p class="map-address-text">
+                <span class="zh-only">5287 Yonge St First Floor, North York, ON M2N 5R3</span>
+                <span class="en-only">5287 Yonge St First Floor, North York, ON M2N 5R3</span>
+              </p>
+              <a class="btn-map" href="https://www.google.com/maps/search/?api=1&query=The%20Pot%20Home%205287%20Yonge%20St%20First%20Floor%20North%20York%20ON%20M2N%205R3" target="_blank" rel="noopener">
+                <span class="zh-only">打开 Google 地图</span>
+                <span class="en-only">Open in Google Maps</span>
+              </a>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://maps.google.com/maps?q=The+Pot+Home+5287+Yonge+St+First+Floor+North+York+ON+M2N+5R3&output=embed"
+                width="100%"
+                height="340"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="The Pot Home location on Google Maps"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Menu View -->
+    <div id="view-menu" class="page-view">
+      <section class="menu-page">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="section-title">
+              <span class="zh-only">完整菜单</span>
+              <span class="en-only">Full Menu</span>
+            </h2>
+            <a class="btn btn-back" href="#home" data-view="home">
+              <span class="zh-only">← 返回首页</span>
+              <span class="en-only">← Back Home</span>
+            </a>
+          </div>
+          <div id="category-nav" class="category-nav"></div>
+          <div class="menu-paper">
+            <div id="menu-content" class="menu-content">
+              <p class="menu-loading zh-only">正在加载菜单...</p>
+              <p class="menu-loading en-only">Loading menu...</p>
+            </div>
+          </div>
+          <div class="menu-footer-actions">
+            <a class="btn btn-back" href="#home" data-view="home">
+              <span class="zh-only">← 返回首页</span>
+              <span class="en-only">← Back Home</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>&copy; 2026 The Pot Home (一锅小筑). All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

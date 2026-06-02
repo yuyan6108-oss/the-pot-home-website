@@ -1,0 +1,563 @@
+[
+  {
+    "category": "Signature Copper Pot Series",
+    "category_cn": "招牌铜锅系列",
+    "items": [
+      {
+        "name_cn": "火锅鸡",
+        "name": "Hot Pot Chicken",
+        "description": "Spicy / Sweet & Savory",
+        "price": "$49.95"
+      },
+      {
+        "name_cn": "火锅虾",
+        "name": "Spicy Hot Pot Shrimp",
+        "price": "$53.95"
+      },
+      {
+        "name_cn": "火锅蛙",
+        "name": "Spicy Hot Pot Bullfrog",
+        "price": "$53.95"
+      },
+      {
+        "name_cn": "珍珠塔双层锅",
+        "name": "Double-Tiered Hot Pot Chicken",
+        "price": "$69.95"
+      },
+      {
+        "name_cn": "珍珠塔鸡虾锅",
+        "name": "Double-Tiered Hot Pot Chicken & Shrimp",
+        "price": "$73.95"
+      },
+      {
+        "name_cn": "珍珠塔鸡蛙锅",
+        "name": "Double-Tiered Hot Pot Chicken & Bullfrog",
+        "price": "$73.95"
+      }
+    ]
+  },
+  {
+    "category": "Signature Clay Pot Series",
+    "category_cn": "招牌砂锅系列",
+    "items": [
+      {
+        "name_cn": "招牌原味羊蝎子锅",
+        "name": "Signature Original Lamb Spine Hot Pot",
+        "price": "$49.95"
+      },
+      {
+        "name_cn": "招牌麻辣羊蝎子锅",
+        "name": "Signature Spicy Lamb Spine Hot Pot",
+        "price": "$49.95"
+      },
+      {
+        "name_cn": "川香麻辣蛙锅",
+        "name": "Sichuan Spicy Bullfrog Pot",
+        "price": "$53.95"
+      },
+      {
+        "name_cn": "麻辣牛筋牛腩锅",
+        "name": "Spicy Braised Beef Tendon & Brisket Hot Pot",
+        "price": "$56.95"
+      },
+      {
+        "name_cn": "番茄牛腩牛筋锅",
+        "name": "Tomato Beef Brisket & Tendon Hot Pot",
+        "price": "$56.95"
+      }
+    ]
+  },
+  {
+    "category": "Signature Staples & Rice Dishes",
+    "category_cn": "特色主食 & 饭",
+    "items": [
+      {
+        "name_cn": "芝麻烧饼",
+        "name": "Sesame Flatbread",
+        "description": "2 pcs",
+        "price": "$3.95"
+      },
+      {
+        "name_cn": "烙葱花蛋饼",
+        "name": "Pan-Fried Egg Pancake",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "千层饼卷牛肉",
+        "name": "Crispy Pancake with Beef",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "黄金蛋炒饭",
+        "name": "Golden Fried Rice",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "家常素炒饼",
+        "name": "Home-style Fried Shredded Pancake with Egg",
+        "description": "Bean Sprouts / Cabbage / Shredded Potato",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "家常肉炒饼",
+        "name": "Home-style Fried Shredded Pancake with Pork",
+        "description": "Bean Sprouts / Cabbage / Shredded Potato",
+        "price": "$12.95"
+      },
+      {
+        "name_cn": "白米饭",
+        "name": "Rice",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "烙千层饼",
+        "name": "Pan-Fried Crispy Pancake",
+        "description": "4 pcs",
+        "price": "$3.95"
+      },
+      {
+        "name_cn": "烙饼夹牛肉",
+        "name": "Beef-Stuffed Flatbread",
+        "price": "$7.95"
+      },
+      {
+        "name_cn": "烙饼夹土豆丝",
+        "name": "Flatbread with Shredded Potato",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "南瓜糯米豆沙饼",
+        "name": "Pumpkin Flatbread with Red Bean Filling",
+        "price": "$2.35"
+      },
+      {
+        "name_cn": "糖烧饼",
+        "name": "Sweet Sesame Flatbread",
+        "description": "2 pcs",
+        "price": "$4.95"
+      }
+    ]
+  },
+  {
+    "category": "Handmade Dumplings & Chinese Pie",
+    "category_cn": "手工水饺和馅饼",
+    "items": [
+      {
+        "name_cn": "韭菜猪肉水饺",
+        "name": "Chives & Pork Dumplings",
+        "description": "12 pcs",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "牛肉大葱水饺",
+        "name": "Beef & Green Onion Dumplings",
+        "description": "12 pcs",
+        "price": "$11.95"
+      },
+      {
+        "name_cn": "白菜猪肉馅饼",
+        "name": "Cabbage & Pork Pie",
+        "description": "1 pc",
+        "price": "$3.25"
+      },
+      {
+        "name_cn": "韭菜盒子",
+        "name": "Leek Pocket",
+        "description": "2 pcs",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "白菜猪肉水饺",
+        "name": "Cabbage & Pork Dumplings",
+        "description": "12 pcs",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "韭菜鸡蛋水饺",
+        "name": "Chive & Egg Dumplings",
+        "description": "12 pcs",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "牛肉大葱馅饼",
+        "name": "Beef & Green Onion Pie",
+        "description": "1 pc",
+        "price": "$3.25"
+      }
+    ]
+  },
+  {
+    "category": "Cold Dishes",
+    "category_cn": "凉菜",
+    "items": [
+      {
+        "name_cn": "凉拌海带丝",
+        "name": "Seaweed Salad",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "凉拌土豆丝",
+        "name": "Shredded Potatoes with Chili Sauce",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "开胃萝卜",
+        "name": "Crispy Radish",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "爽口芹菜花生",
+        "name": "Celery & Peanuts Salad",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "老虎菜",
+        "name": "Smashed Cucumber Salad",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "凉拌豆腐丝",
+        "name": "Shredded Tofu Skin",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "剁椒皮蛋",
+        "name": "Century Egg with Chili Sauce",
+        "price": "$7.95"
+      },
+      {
+        "name_cn": "椒麻手撕鸡",
+        "name": "Shredded Chicken with Chili Sauce",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "丰收蘸酱菜",
+        "name": "Seasonal Veggie Platter with Dipping Sauce",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "麻辣凉拌牛肉",
+        "name": "Spicy Sliced Beef",
+        "price": "$9.95"
+      }
+    ]
+  },
+  {
+    "category": "Snacks",
+    "category_cn": "小吃",
+    "items": [
+      {
+        "name_cn": "手抓羊排",
+        "name": "Slice Lamb Chops",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "炸鸡脆骨",
+        "name": "Crispy Chicken Cartilage",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "炸蔬菜天妇罗",
+        "name": "Deep-Fried Tempura Vegetables",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "炸肥肠",
+        "name": "Deep-Fried Pig Intestine",
+        "price": "$11.95"
+      },
+      {
+        "name_cn": "炸鸡架",
+        "name": "Deep-Fried Chicken Rack",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "炸羊排",
+        "name": "Fried Lamb Chops",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "炸鱼豆腐",
+        "name": "Deep-Fried Fish Tofu",
+        "price": "$6.95"
+      },
+      {
+        "name_cn": "炸高丽菜",
+        "name": "Deep-Fried Chinese Cabbage",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "炸甜肠",
+        "name": "Deep-Fried Sweet Sausage",
+        "price": "$7.95"
+      },
+      {
+        "name_cn": "盐酥鸡",
+        "name": "Popcorn Chicken",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "炸小酥肉",
+        "name": "Deep-Fried Sliced Pork",
+        "price": "$8.95"
+      },
+      {
+        "name_cn": "炸茄子",
+        "name": "Deep-Fried Eggplant",
+        "price": "$5.95"
+      }
+    ]
+  },
+  {
+    "category": "Small Pots & Home-style Stir-fry",
+    "category_cn": "特色小锅 & 小炒",
+    "items": [
+      {
+        "name_cn": "虎皮凤爪锅",
+        "name": "Braised Chicken Feet Pot",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "砂锅毛血旺锅",
+        "name": "Chongqing Spicy Mix Pot",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "砂锅水煮鱼片锅",
+        "name": "Sichuan Boiled Fish Fillets Pot",
+        "price": "$18.95"
+      },
+      {
+        "name_cn": "砂锅肥肠豆腐",
+        "name": "Pork Intestine & Tofu Pot",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "大虾粉丝煲",
+        "name": "Prawn & Vermicelli Clay Pot",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "花甲粉丝煲",
+        "name": "Clams & Vermicelli Clay Pot",
+        "price": "$16.95"
+      },
+      {
+        "name_cn": "整只肘花锅",
+        "name": "Whole Braised Pork Knuckle Pot",
+        "price": "$18.95"
+      },
+      {
+        "name_cn": "水汆丸子砂锅",
+        "name": "Meat Ball Soup Pot",
+        "price": "$13.95"
+      },
+      {
+        "name_cn": "地三鲜",
+        "name": "Sautéed Potato, Eggplant and Green Pepper",
+        "price": "$13.95"
+      },
+      {
+        "name_cn": "干锅花菜",
+        "name": "Dry Pot Cauliflower with Pork",
+        "price": "$13.95"
+      },
+      {
+        "name_cn": "番茄炒蛋",
+        "name": "Scrambled Eggs with Tomatoes",
+        "price": "$13.95"
+      }
+    ]
+  },
+  {
+    "category": "Lamb Series",
+    "category_cn": "羊骨羊汤系列",
+    "items": [
+      {
+        "name_cn": "传统羊肉汤",
+        "name": "Traditional Lamb Soup",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "羊汤手擀面",
+        "name": "Lamb Soup Noodles",
+        "description": "Lamb / Lamb Offal / Lamb & Duck Blood",
+        "price": "$14.95"
+      },
+      {
+        "name_cn": "牛筋牛腩手擀面",
+        "name": "Beef Tendon & Brisket Hand-Pulled Noodles",
+        "price": "$14.95"
+      },
+      {
+        "name": "Lamb & Duck Blood Vermicelli Soup",
+        "price": "$11.95"
+      },
+      {
+        "name_cn": "传统羊杂汤",
+        "name": "Traditional Lamb Offal Soup",
+        "price": "$10.95"
+      },
+      {
+        "name_cn": "羊汤米线",
+        "name": "Lamb Soup Rice Noodles",
+        "description": "Lamb / Lamb Offal / Lamb & Duck Blood",
+        "price": "$14.95"
+      },
+      {
+        "name_cn": "牛筋牛腩米线",
+        "name": "Beef Tendon & Brisket Rice Noodles",
+        "price": "$14.95"
+      }
+    ]
+  },
+  {
+    "category": "Toppings Add-ons",
+    "category_cn": "可单加",
+    "items": [
+      {
+        "name_cn": "豆皮",
+        "name": "Tofu Skin",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "豆泡",
+        "name": "Tofu Puffs",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "粉丝",
+        "name": "Vermicelli",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "冻豆腐",
+        "name": "Frozen Tofu",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "煎蛋",
+        "name": "Fried Egg",
+        "price": "$1.95"
+      },
+      {
+        "name_cn": "羊肉",
+        "name": "Sliced Lamb",
+        "price": "$3.95"
+      },
+      {
+        "name_cn": "羊杂",
+        "name": "Lamb Offal",
+        "price": "$3.95"
+      },
+      {
+        "name_cn": "鸭血",
+        "name": "Duck Blood",
+        "price": "$3.95"
+      },
+      {
+        "name_cn": "牛腩",
+        "name": "Braised Beef Brisket",
+        "price": "$3.95"
+      }
+    ]
+  },
+  {
+    "category": "Dessert",
+    "category_cn": "甜点",
+    "items": [
+      {
+        "name_cn": "红糖冰粉",
+        "name": "Brown Sugar Ice Jelly",
+        "price": "$4.95"
+      },
+      {
+        "name_cn": "红糖糍粑",
+        "name": "Deep-Fried Brown Sugar Rice Cake",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "杨枝甘露",
+        "name": "Mango Pomelo Sago",
+        "price": "$5.95"
+      },
+      {
+        "name_cn": "炸椰奶",
+        "name": "Deep-Fried Coconut Milk",
+        "price": "$5.95"
+      }
+    ]
+  },
+  {
+    "category": "Drink",
+    "category_cn": "饮品",
+    "items": [
+      {
+        "name_cn": "Soft Drink",
+        "name": "Coke / Diet Coke / Fuze / Ginger Ale",
+        "price": "$1.99"
+      },
+      {
+        "name_cn": "康师傅系列",
+        "name": "Master Kong Series",
+        "price": "$3.49"
+      },
+      {
+        "name_cn": "北冰洋",
+        "name": "Arctic Ocean Soda",
+        "price": "$3.99"
+      },
+      {
+        "name_cn": "王老吉",
+        "name": "Wang Lao Ji",
+        "price": "$2.99"
+      },
+      {
+        "name_cn": "元气森林系列",
+        "name": "Genki Forest Series",
+        "price": "$3.99"
+      },
+      {
+        "name_cn": "椰树椰汁",
+        "name": "Coconut Juice",
+        "price": "$3.99"
+      }
+    ]
+  },
+  {
+    "category": "Beer",
+    "category_cn": "啤酒",
+    "items": [
+      {
+        "name_cn": "黄扎啤 1.5L",
+        "name": "1.5L Amber Light Draft Beer",
+        "price": "$12.99"
+      },
+      {
+        "name_cn": "黑扎啤 1.5L",
+        "name": "1.5L Dark Draft Beer",
+        "price": "$13.99"
+      },
+      {
+        "name_cn": "Coors Light",
+        "name": "Coors Light",
+        "price": "$5.99"
+      },
+      {
+        "name_cn": "Corona",
+        "name": "Corona",
+        "price": "$6.99"
+      },
+      {
+        "name_cn": "Heineken",
+        "name": "Heineken",
+        "price": "$6.99"
+      },
+      {
+        "name_cn": "Molson Canadian",
+        "name": "Molson Canadian",
+        "price": "$6.99"
+      }
+    ]
+  }
+]

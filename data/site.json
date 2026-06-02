@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "titleCn": "一锅小筑",
+    "titleEn": "The Pot Home",
+    "slogan": "Hot Pot Chicken · Clay Pot Comfort Food · Handmade Staples",
+    "description": "北约克特色铜锅鸡、砂锅与手工面食，适合朋友聚餐和家庭分享。",
+    "menuButton": "查看菜单 View Menu",
+    "visitButton": "到店信息 Visit Us"
+  },
+  "about": {
+    "label": "关于",
+    "titleCn": "一锅小筑",
+    "titleEn": "About The Pot Home",
+    "description": "一锅小筑位于 North York，主打招牌铜锅鸡、砂锅热汤和手工主食。我们希望用热气腾腾的一锅菜，带来适合分享的中式 comfort food。",
+    "highlights": [
+      {
+        "titleCn": "招牌铜锅鸡",
+        "titleEn": "Signature Copper Pot Chicken"
+      },
+      {
+        "titleCn": "砂锅与热汤",
+        "titleEn": "Clay Pots & Comfort Soup"
+      },
+      {
+        "titleCn": "手工主食",
+        "titleEn": "Handmade Staples"
+      }
+    ]
+  },
+  "gallery": {
+    "label": "影像",
+    "titleCn": "餐厅影像",
+    "titleEn": "Gallery",
+    "subtitleZn": "招牌铜锅、热气砂锅、手工主食与店内氛围。",
+    "subtitleEn": "Signature copper pots, warm clay pots, handmade staples, and restaurant moments."
+  },
+  "reviews": {
+    "labelZn": "真实评价",
+    "labelEn": "Real Reviews",
+    "titleZn": "客人评价",
+    "titleEn": "Customer Reviews"
+  },
+  "location": {
+    "labelZn": "联系我们",
+    "labelEn": "Contact Us",
+    "titleCn": "位置与时间",
+    "titleEn": "Location & Hours"
+  }
+}

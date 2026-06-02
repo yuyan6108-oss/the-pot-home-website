@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: the-pot-home
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: ./start.sh
+    envVars:
+      - key: ADMIN_PASSWORD
+        value: thepothome
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: data
+      mountPath: /data-root
+      sizeGB: 1

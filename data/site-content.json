@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": {
+      "cn": "首页",
+      "en": "Home"
+    },
+    "menu": {
+      "cn": "菜单",
+      "en": "Menu"
+    },
+    "reviews": {
+      "cn": "评价",
+      "en": "Reviews"
+    },
+    "location": {
+      "cn": "地址",
+      "en": "Location"
+    },
+    "contact": {
+      "cn": "联系",
+      "en": "Contact"
+    },
+    "languageCn": "中文",
+    "languageEn": "English"
+  }
+}

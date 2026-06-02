@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1778172297091,
+    "title": "hot pot chicken",
+    "type": "image",
+    "url": "/uploads/movpvhj5.webp",
+    "createdAt": "2026-05-07T16:44:57.091Z"
+  },
+  {
+    "id": 1778195946358,
+    "title": "整只肘花锅",
+    "type": "image",
+    "url": "/uploads/mow3ydey.webp",
+    "createdAt": "2026-05-07T23:19:06.358Z"
+  },
+  {
+    "id": 1778173028789,
+    "title": "hot pot chicken",
+    "type": "video",
+    "url": "/uploads/movqb63o.mp4",
+    "createdAt": "2026-05-07T16:57:08.789Z"
+  }
+]

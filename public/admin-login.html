@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login | The Pot Home</title>
+  <style>
+    :root {
+      --cream: #f9f3e9;
+      --brown-dark: #3e2a1a;
+      --red: #b8302a;
+      --green: #3b7a4e;
+      --text: #2e2218;
+      --text-muted: #7a6655;
+      --border: #ddd0c0;
+      --paper: #fdfbf7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans", sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .login-container {
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 36px 32px;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 2px 12px rgba(50,30,15,0.06);
+    }
+    h1 {
+      font-family: "Georgia", serif;
+      font-size: 1.4rem;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+    }
+    .form-group {
+      margin-bottom: 18px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.92rem;
+      font-family: inherit;
+      background: #fff;
+    }
+    .form-group input[type="password"]:focus {
+      outline: none;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(59,122,78,0.1);
+    }
+    .login-btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: inherit;
+    }
+    .login-btn:hover { background: #a02020; }
+    .login-btn:disabled {
+      background: var(--text-muted);
+      cursor: not-allowed;
+    }
+    .msg {
+      text-align: center;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      margin-top: 14px;
+      display: none;
+    }
+    .msg.error {
+      display: block;
+      background: rgba(184,48,42,0.1);
+      color: var(--red);
+      border: 1px solid rgba(184,48,42,0.2);
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .back-link a {
+      color: var(--green);
+      text-decoration: none;
+    }
+    .back-link a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Admin Login</h1>
+    <p class="subtitle">The Pot Home (一锅小筑) 管理后台</p>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="password-input">Password / 密码</label>
+        <input type="password" id="password-input" name="password" placeholder="Enter admin password" required />
+      </div>
+      <button type="submit" class="login-btn" id="login-btn">Login / 登录</button>
+    </form>
+    <div class="msg" id="msg"></div>
+    <p class="back-link"><a href="/">← Back to Homepage / 返回首页</a></p>
+  </div>
+  <script>
+    const form = document.getElementById("login-form");
+    const msg = document.getElementById("msg");
+    const btn = document.getElementById("login-btn");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      msg.className = "msg";
+      msg.textContent = "";
+      btn.disabled = true;
+      btn.textContent = "Logging in...";
+
+      try {
+        const res = await fetch("/api/admin/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ password: document.getElementById("password-input").value }),
+          credentials: "same-origin"
+        });
+        const data = await res.json();
+        if (res.ok) {
+          window.location.href = "/admin";
+        } else {
+          msg.textContent = data.error || "Login failed.";
+          msg.className = "msg error";
+        }
+      } catch (err) {
+        msg.textContent = "Network error.";
+        msg.className = "msg error";
+      }
+      btn.disabled = false;
+      btn.textContent = "Login / 登录";
+    });
+  </script>
+</body>
+</html>

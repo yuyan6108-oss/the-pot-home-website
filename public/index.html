@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一锅小筑 | The Pot Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="lang-zh view-home">
+    <!-- Top Navigation -->
+    <nav class="top-nav" id="top-nav">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#home" id="nav-brand">
+          <span class="nav-brand-zh">一锅小筑</span>
+          <span class="nav-brand-en">The Pot Home</span>
+        </a>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#home" data-view="home">
+              <span class="zh-only" data-nav="home.cn">首页</span>
+              <span class="en-only" data-nav="home.en">Home</span>
+            </a></li>
+            <li><a class="nav-link" href="#menu" data-view="menu">
+              <span class="zh-only" data-nav="menu.cn">菜单</span>
+              <span class="en-only" data-nav="menu.en">Menu</span>
+            </a></li>
+            <li><a class="nav-link" href="#reviews" data-section="reviews">
+              <span class="zh-only" data-nav="reviews.cn">好评</span>
+              <span class="en-only" data-nav="reviews.en">Reviews</span>
+            </a></li>
+            <li><a class="nav-link" href="#info" data-section="info">
+              <span class="zh-only" data-nav="location.cn">地址</span>
+              <span class="en-only" data-nav="location.en">Location</span>
+            </a></li>
+            <li><a class="nav-link" href="#info" data-section="info">
+              <span class="zh-only" data-nav="contact.cn">联系</span>
+              <span class="en-only" data-nav="contact.en">Contact</span>
+            </a></li>
+            <li class="nav-lang-mobile">
+              <div class="lang-switch">
+                <button class="lang-btn active" data-lang="zh" data-nav="languageCn">中文</button>
+                <span class="lang-sep">|</span>
+                <button class="lang-btn" data-lang="en" data-nav="languageEn">English</button>
+              </div>
+            </li>
+          </ul>
+          <div class="lang-switch lang-switch-desktop">
+            <button class="lang-btn active" data-lang="zh" data-nav="languageCn">中文</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" data-lang="en" data-nav="languageEn">English</button>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Home View -->
+    <div id="view-home" class="page-view">
+      <!-- Hero -->
+      <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-brand">
+            <span class="hero-cn" data-site="hero.titleCn">一锅小筑</span>
+            <span class="hero-en" data-site="hero.titleEn">The Pot Home</span>
+          </div>
+          <div class="hero-ornament">
+            <span class="ornament-line"></span>
+            <span class="ornament-diamond"></span>
+            <span class="ornament-line"></span>
+          </div>
+          <p class="hero-slogan" data-site="hero.slogan">Copper Pot Chicken · Clay Pot Comfort Food · Handmade Staples</p>
+          <p class="hero-desc" data-site="hero.description">北约克特色铜锅鸡、砂锅与手工面食，适合朋友聚餐和家庭分享。</p>
+          <div class="hero-actions">
+            <a class="btn btn-hero-primary" data-site="hero.menuButton" href="#menu" data-view="menu">查看菜单 View Menu</a>
+            <a class="btn btn-hero-outline" data-site="hero.visitButton" href="#info" data-section="info">到店信息 Visit Us</a>
+          </div>
+        </div>
+        <div class="hero-scroll-hint">
+          <span></span>
+        </div>
+      </header>
+
+      <!-- About -->
+      <section class="section section-about" id="about">
+        <div class="about-inner">
+          <div class="about-header">
+            <span class="about-label" data-site="about.label">关于</span>
+            <h2 class="about-title">
+              一锅小筑 <span class="about-title-en" data-site="about.titleEn">About The Pot Home</span>
+            </h2>
+            <div class="about-divider">
+              <span class="about-line"></span>
+              <span class="about-diamond"></span>
+              <span class="about-line"></span>
+            </div>
+          </div>
+          <div class="about-body">
+            <div class="about-intro">
+              <p data-site-info="about_cn">一锅小筑位于北约克，主打招牌铜锅鸡、砂锅系列、手工水饺和中式家常风味。我们用扎实的分量、热乎的锅气和熟悉的味道，为客人带来适合朋友聚餐、家庭用餐和日常外卖的舒适中餐体验。</p>
+            </div>
+            <div class="about-highlights">
+              <div class="about-highlight-card">
+                <div class="about-highlight-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                </div>
+                <div class="about-highlight-cn" data-site="about.highlights[0].titleCn">招牌铜锅鸡</div>
+                <div class="about-highlight-en" data-site="about.highlights[0].titleEn">Signature Copper Pot Chicken</div>
+              </div>
+              <div class="about-highlight-card">
+                <div class="about-highlight-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8V6a2 2 0 00-4 0v2"/><path d="M10 20H6a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 01-2 2z"/><circle cx="14" cy="14" r="2"/></svg>
+                </div>
+                <div class="about-highlight-cn" data-site="about.highlights[1].titleCn">砂锅与热汤</div>
+                <div class="about-highlight-en" data-site="about.highlights[1].titleEn">Clay Pots &amp; Comfort Soup</div>
+              </div>
+              <div class="about-highlight-card">
+                <div class="about-highlight-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                </div>
+                <div class="about-highlight-cn" data-site="about.highlights[2].titleCn">手工主食</div>
+                <div class="about-highlight-en" data-site="about.highlights[2].titleEn">Handmade Staples</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section section-gallery">
+        <div class="gallery-inner">
+          <div class="gallery-header">
+            <span class="gallery-label" data-site="gallery.label">影像</span>
+            <h2 class="gallery-title">
+              餐厅影像 <span class="gallery-title-en" data-site="gallery.titleEn">Gallery</span>
+            </h2>
+            <p class="gallery-subtitle">
+              <span class="zh-only" data-site="gallery.subtitleZn">招牌铜锅、热气砂锅、手工主食与店内氛围。</span>
+              <span class="en-only" data-site="gallery.subtitleEn">Signature copper pots, warm clay pots, handmade staples, and restaurant moments.</span>
+            </p>
+            <div class="gallery-divider">
+              <span class="gallery-line"></span>
+              <span class="gallery-diamond"></span>
+              <span class="gallery-line"></span>
+            </div>
+          </div>
+          <div class="gallery-grid" id="gallery-grid">
+            <div class="gallery-loading">
+              <p class="zh-only">正在加载影像...</p>
+              <p class="en-only">Loading gallery...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Reviews -->
+      <section class="section section-reviews" id="reviews">
+        <div class="reviews-header">
+          <span class="reviews-label">
+            <span class="zh-only" data-site="reviews.labelZn">真实评价</span>
+            <span class="en-only" data-site="reviews.labelEn">Real Reviews</span>
+          </span>
+          <h2 class="section-title">
+            <span class="zh-only" data-site="reviews.titleZn">客人好评</span>
+            <span class="en-only" data-site="reviews.titleEn">Customer Reviews</span>
+          </h2>
+          <div class="reviews-divider">
+            <span class="reviews-line"></span>
+            <span class="reviews-diamond"></span>
+            <span class="reviews-line"></span>
+          </div>
+        </div>
+        <div class="reviews-marquee">
+          <div class="reviews-fade-left"></div>
+          <div class="reviews-fade-right"></div>
+          <div class="reviews-track" id="reviews-carousel">
+            <!-- Original set -->
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                The customer service was amazing. The staff were friendly and patient, and the chicken pot was delicious. The chicken was juicy and the pancakes were crispy.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Ivy_E</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to ialty, and it's good for four of us. The chicken feet dish is amazing too.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Gigi li</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to if I'm craving hearty, comforting food.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Yuk KO</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                非常好吃！！火锅鸡很正宗 其他的小食也不错！！很适合一起聚餐来吃分量很大
+              </div>
+              <div class="review-author">
+                <span class="review-name">Zi hui Wang</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                这家鸡肉火锅真是太美味了！汤底浓郁鲜美，鸡肉本身也鲜嫩多汁。餐厅干净整洁，用餐环境舒适宜人。服务也非常优质。
+              </div>
+              <div class="review-author">
+                <span class="review-name">Jayden Plusone</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Went here with a group of friends, and ordered a bunch of signature dishes, and the price and flavor really surprised us. We especially liked the hot pot chicken which balanced the tenderness and spice pretty well. We liked the noodle too. Great service and experience.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Agnes Lu</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Just an amazing restaurant! Been here twice, my friends all like the food! It's fresh!
+              </div>
+              <div class="review-author">
+                <span class="review-name">CornWasteLand</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <!-- Duplicate set for seamless loop -->
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                The customer service was amazing. The staff were friendly and patient, and the chicken pot was delicious. The chicken was juicy and the pancakes were crispy.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Ivy_E</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to ialty, and it's good for four of us. The chicken feet dish is amazing too.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Gigi li</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Portions were generous, prices were reasonable, and the food came out hot and fast. Definitely a place I'd come back to if I'm craving hearty, comforting food.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Yuk KO</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                非常好吃！！火锅鸡很正宗 其他的小食也不错！！很适合一起聚餐来吃分量很大
+              </div>
+              <div class="review-author">
+                <span class="review-name">Zi hui Wang</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                这家鸡肉火锅真是太美味了！汤底浓郁鲜美，鸡肉本身也鲜嫩多汁。餐厅干净整洁，用餐环境舒适宜人。服务也非常优质。
+              </div>
+              <div class="review-author">
+                <span class="review-name">Jayden Plusone</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Went here with a group of friends, and ordered a bunch of signature dishes, and the price and flavor really surprised us. We especially liked the hot pot chicken which balanced the tenderness and spice pretty well. We liked the noodle too. Great service and experience.
+              </div>
+              <div class="review-author">
+                <span class="review-name">Agnes Lu</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="review-text">
+                Just an amazing restaurant! Been here twice, my friends all like the food! It's fresh!
+              </div>
+              <div class="review-author">
+                <span class="review-name">CornWasteLand</span>
+                <span class="review-source">Google Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location & Info -->
+      <section class="section section-location" id="info">
+        <div class="location-inner">
+          <div class="location-header">
+            <span class="location-label">
+              <span class="zh-only" data-site="location.labelZn">联系我们</span>
+              <span class="en-only" data-site="location.labelEn">Contact Us</span>
+            </span>
+            <h2 class="location-title">
+              位置与时间 <span class="location-title-en" data-site="location.titleEn">Location & Hours</span>
+            </h2>
+            <div class="location-divider">
+              <span class="location-line"></span>
+              <span class="location-diamond"></span>
+              <span class="location-line"></span>
+            </div>
+          </div>
+          <div class="location-body">
+            <div class="location-main">
+              <div class="info-card">
+                <div class="info-section">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div class="info-content">
+                    <h3 class="info-title">
+                      地址 <span class="info-title-en">Address</span>
+                    </h3>
+                    <p class="info-text" data-site-info="address">5287 Yonge St First Floor,<br>North York, ON M2N 5R3</p>
+                  </div>
+                </div>
+                <div class="info-section">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                  </div>
+                  <div class="info-content">
+                    <h3 class="info-title">
+                      电话 <span class="info-title-en">Phone</span>
+                    </h3>
+                    <p class="info-text">
+                      <a class="info-link" data-site-info="phone" href="tel:+14163351578">(416) 335-1578</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="info-section">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                  </div>
+                  <div class="info-content">
+                    <h3 class="info-title">
+                      服务 <span class="info-title-en">Service</span>
+                    </h3>
+                    <p class="info-text">
+                      <span class="zh-only">堂食 / 外卖 / Delivery</span>
+                      <span class="en-only">Dine-in / Takeout / Delivery</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="info-section info-social-section">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="info-content">
+                    <h3 class="info-title">
+                      关注我们 <span class="info-title-en">Follow Us</span>
+                    </h3>
+                    <div class="social-links">
+                      <a class="social-btn" data-site-info="xiaohongshu_url" href="https://www.xiaohongshu.com/user/profile/5fd2b7eb00000000010082f9" target="_blank" rel="noopener">
+                        <span class="social-btn-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 2v2H6v16h12V4h-2V2H8zm4 2h2v2h-2V4zm-2 4v2h2V8h-2zm0 4v2h2v-2h-2zm-2 4v2h2v-2h-2zm8 2v2h-2v-2h2zm-6 2v2h-2v-2h2z"/></svg>
+                        </span>
+                        <span class="social-btn-text">小红书</span>
+                      </a>
+                      <a class="social-btn" data-site-info="instagram_url" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        <span class="social-btn-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                        </span>
+                        <span class="social-btn-text">Instagram</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hours-card">
+                <h3 class="hours-card-title">
+                  营业时间 <span class="hours-card-title-en">Hours</span>
+                </h3>
+                <div class="hours-grid" data-site-info="hours">
+                  <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">11:30 – 22:30</span></div>
+                  <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">11:30 – 23:00</span></div>
+                  <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">11:30 – 23:00</span></div>
+                  <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">11:30 – 23:00</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="location-map">
+              <div class="location-map-embed">
+                <iframe
+                  data-site-info="google_map_url"
+                  src="https://maps.google.com/maps?q=The+Pot+Home+5287+Yonge+St+First+Floor+North+York+ON+M2N+5R3&output=embed"
+                  width="100%"
+                  height="340"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="The Pot Home location on Google Maps"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Menu View -->
+    <div id="view-menu" class="page-view">
+      <section class="menu-page">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="section-title">
+              <span class="zh-only">完整菜单</span>
+              <span class="en-only">Full Menu</span>
+            </h2>
+            <a class="btn btn-back" href="#home" data-view="home">
+              <span class="zh-only">← 返回首页</span>
+              <span class="en-only">← Back Home</span>
+            </a>
+          </div>
+          <div id="category-nav" class="category-nav"></div>
+          <div class="menu-paper">
+            <div id="menu-content" class="menu-content">
+              <p class="menu-loading zh-only">正在加载菜单...</p>
+              <p class="menu-loading en-only">Loading menu...</p>
+            </div>
+          </div>
+          <div class="menu-footer-actions">
+            <a class="btn btn-back" href="#home" data-view="home">
+              <span class="zh-only">← 返回首页</span>
+              <span class="en-only">← Back Home</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>&copy; 2026 The Pot Home (一锅小筑). All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="gallery-modal">
+      <div class="gallery-modal-backdrop">
+        <button class="gallery-modal-close" aria-label="Close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <img class="gallery-modal-image" id="gallery-modal-image" alt="" />
+        <video class="gallery-modal-video" id="gallery-modal-player" controls playsinline></video>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
